@@ -1,0 +1,10 @@
+.project-link {
+    margin: 2rem 0;
+    border: none;
+    background-color: #202C39;
+    color: white;
+    cursor: pointer;
+    width: 20rem;
+    height: 4rem;
+    font-size: 2em;
+}

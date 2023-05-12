@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  /* font-family: 'Russo One', sans-serif; */
+}
+
+body {
+  background-color: #ffecd1;
+  /* #084C61, #034748, #F4B860, #FFC15E, #F7B05B, #F7934C, #202C39, #283845  */
 }

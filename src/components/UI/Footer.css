@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin: 0 5vw;
+}
+
+.footer-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.linkedin-icon {
+    margin: 0 5rem;
+}

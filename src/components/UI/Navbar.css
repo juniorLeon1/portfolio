@@ -3,4 +3,22 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 10vh;
+    margin: 0 5vw;
+}
+
+.link-box {
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.projects-link {
+    margin: 0 20px;
+}
+
+.nav-title {
+    text-decoration: none;
 }

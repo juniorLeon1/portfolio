@@ -1,0 +1,15 @@
+.cards-container {
+    /* margin: 0 5vw; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-preview {
+    height: 400px;
+}

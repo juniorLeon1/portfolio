@@ -1,0 +1,20 @@
+.home-background {
+    background-image: url("../images/home.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-box {
+    text-align: center;
+    color: white;
+}
+
+.title-box h1 {
+    font-size: 5rem;
+}
