@@ -7,16 +7,30 @@ const Footer = () => {
     <footer>
       <h2 className="updated">Last Updated:</h2>
 
-      <div className="background-icons">
-        <Link to="https://github.com/juniorLeon1" target="_blank">
-          <i className="fa-brands fa-github footer-icon"></i>
+      <div className="footer-icons">
+        <Link
+          to="https://github.com/juniorLeon1"
+          target="_blank"
+          className="icons-link"
+        >
+          <i className="fa-brands fa-github github"></i>
         </Link>
 
-        <Link to="https://www.linkedin.com/in/nleonjr/" target="_blank" className="linkedin-icon">
-          <i className="fa-brands fa-linkedin-in footer-icon"></i>
+        <Link
+          to="https://www.linkedin.com/in/nleonjr/"
+          target="_blank"
+          className="icons-link"
+        >
+          <i className="fa-brands fa-linkedin-in linkedin"></i>
         </Link>
 
-        <i className="fa-brands fa-twitter footer-icon"></i>
+        <Link
+          to="https://www.linkedin.com/in/nleonjr/"
+          target="_blank"
+          className="icons-link"
+        >
+          <i className="fa-brands fa-twitter twitter"></i>
+        </Link>
       </div>
     </footer>
   );

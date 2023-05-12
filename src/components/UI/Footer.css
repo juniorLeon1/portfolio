@@ -3,15 +3,21 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
-    margin: 0 5vw;
+    height: 5vh;
+    padding: 0 5vw;
+    background-color: #202C39;
 }
 
-.footer-icon {
+.updated {
+    color: white;
+}
+
+.icons-link {
     font-size: 1.5rem;
     cursor: pointer;
+    color: white;
 }
 
-.linkedin-icon {
-    margin: 0 5rem;
+.linkedin {
+    padding: 0 5vw;
 }

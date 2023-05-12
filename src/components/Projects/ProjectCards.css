@@ -1,15 +1,37 @@
 .cards-container {
-    /* margin: 0 5vw; */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  margin: 0 5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .card {
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
+  margin: 2rem 1rem;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffecd1;
+  border-radius: 10px;
 }
 
 .project-preview {
-    height: 400px;
+  margin: auto;
+  width: 100%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  color: #202c39;
+  padding-top: 20px;
+}
+
+.project-name {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
 }

@@ -6,7 +6,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 const Navbar = () => {
   return (
     <nav>
-      <h1 className="logo">Junior Leon</h1>
+      <h1 className="logo">Jl.</h1>
 
       <ul className="link-box">
         <li className="nav-links home-link">

@@ -9,6 +9,10 @@
 }
 
 body {
-  background-color: #ffecd1;
+  background-color: #084C61;
   /* #084C61, #034748, #F4B860, #FFC15E, #F7B05B, #F7934C, #202C39, #283845  */
+}
+
+.special {
+  color: #F7B05B;
 }

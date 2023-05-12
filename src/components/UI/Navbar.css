@@ -1,24 +1,33 @@
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 10vh;
-    margin: 0 5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 0 5vw;
+  position: sticky;
+  top: 0;
+  background-color: #F7934C;
+  z-index: 1;
+}
+
+.logo {
+    color: white;
 }
 
 .link-box {
-    display: flex;
+  display: flex;
 }
 
 .nav-links {
-    list-style: none;
+  list-style: none;
 }
 
 .projects-link {
-    margin: 0 20px;
+  margin: 0 20px;
 }
 
 .nav-title {
-    text-decoration: none;
+  text-decoration: none;
+  color: white;
 }
