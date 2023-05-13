@@ -56,8 +56,12 @@ const Intro = () => {
           <span className="special">FIND</span> ME ON
         </h1>
         <Icons />
-        <h1 className="contact">OR <span className="special">CONTACT</span> ME @</h1>
-        <p className="email"><span className="special">jrleontech@gmail.com</span></p>
+        <h1 className="contact">
+          OR <span className="special">CONTACT</span> ME @
+        </h1>
+        <p className="email">
+          <span className="special">jrleontech@gmail.com</span>
+        </p>
       </div>
     </div>
   );

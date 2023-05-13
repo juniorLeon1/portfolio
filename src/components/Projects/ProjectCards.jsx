@@ -1,6 +1,6 @@
 import React from "react";
 import { ProjectArray } from "./ProjectArray";
-import "./ProjectCards.css"
+import "./ProjectCards.css";
 import Button from "./Button";
 
 const ProjectCards = () => {
@@ -15,22 +15,22 @@ const ProjectCards = () => {
               <p className="project-desc">{info.desc}</p>
             </div>
             <div className="buttons">
-              <Button values={
-                {
+              <Button
+                values={{
                   url: info.github,
                   icon: <i className="fa-brands fa-github" />,
                   title: "Github",
-                }
-              } />
+                }}
+              />
 
-              <Button values={
-                {
+              <Button
+                values={{
                   url: info.deployed,
                   icon: <i class="fa-solid fa-globe"></i>,
                   title: "Demo",
-                }
-              } />
-              </div>
+                }}
+              />
+            </div>
           </div>
         );
       })}

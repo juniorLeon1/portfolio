@@ -1,0 +1,9 @@
+.download-button {
+    border: none;
+    height: 40px;
+    width: 160px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #202c39;
+    color: white;
+}

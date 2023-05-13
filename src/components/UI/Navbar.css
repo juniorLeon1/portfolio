@@ -7,12 +7,12 @@ nav {
   padding: 0 5vw;
   position: sticky;
   top: 0;
-  background-color: #F7934C;
+  background-color: #f7934c;
   z-index: 1;
 }
 
 .logo {
-    color: white;
+  color: white;
 }
 
 .link-box {
