@@ -1,0 +1,24 @@
+.skillset-container {
+    padding-top: 10vh;
+}
+
+.skillset {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.skill-title {
+    text-align: center;
+}
+
+.languages {
+    border: 3px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    height: 100px;
+    width: 200px;
+    margin: 20px auto;
+}

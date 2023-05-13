@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Name from "../components/Home/Name";
-import Intro from "../components/Home/Intro";
+import Intro from "../components/Home/About";
 
 const Home = () => {
   return (

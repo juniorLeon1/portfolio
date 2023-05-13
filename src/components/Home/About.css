@@ -15,17 +15,36 @@
 
 .title {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 2vh;
 }
 
 .paragraph {
-    padding-right: 300px;
+    padding-right: 200px;
+}
+
+.circle {
+    background-color: #F7B05B;
+    border-radius: 50%;
+}
+
+.right-img {
+    height: 10rem;
 }
 
 .bottom-content {
     padding: 50px 20vw 0;
 }
 
-.connect {
+.connect,
+.contact,
+.email {
     text-align: center;
+}
+
+.contact {
+    padding-top: 5vh;
+}
+
+.email {
+    text-decoration: underline;
 }

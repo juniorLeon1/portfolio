@@ -31,3 +31,12 @@ nav {
   text-decoration: none;
   color: white;
 }
+
+.nav-logo {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-title:hover {
+  text-decoration: underline;
+}

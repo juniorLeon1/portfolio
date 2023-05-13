@@ -5,7 +5,7 @@ import "./Name.css";
 const Name = () => {
   return (
     <div className="name-box">
-      <h1 className="name">Hi!</h1>
+      <h1 className="name">Hi,</h1>
       <h1 className="name">I'm Junior Leon</h1>
       <div className="typewriter">
         <Typewriter

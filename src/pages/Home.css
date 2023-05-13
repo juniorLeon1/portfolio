@@ -3,7 +3,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,6 +12,6 @@
 }
 
 .intro-section {
-    height: 60vh;
-    padding: 0 10vw;
+    /* height: 60vh; */
+    padding: 10vh 10vw;
 }

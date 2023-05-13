@@ -1,15 +1,19 @@
 import React from "react";
-import "./Intro.css";
+import "./About.css";
 import Icons from "./Icons";
+import Skills from "./Skills";
 
 const Intro = () => {
   return (
     <div className="intro-content">
       <div className="top-content">
         <div className="left-text">
-          <h1 className="title">LET ME INTRODUCE MYSELF</h1>
+          <h1 className="title">
+            LET ME <span className="special">INTRODUCE</span> MYSELF
+          </h1>
           <div className="paragraph">
             <p>I am passionate about programming</p>
+            <br />
             <br />
             <p>
               I possess fluency in popular programming languages such as{" "}
@@ -18,10 +22,12 @@ const Intro = () => {
               <span className="special">Javascript</span>.
             </p>
             <br />
+            <br />
             <p>
               I am eager to broaden my expertise in various technical
               programming languages.
             </p>
+            <br />
             <br />
             <p>
               Whenever the opportunity arises, I harness my passion for product
@@ -32,14 +38,26 @@ const Intro = () => {
           </div>
         </div>
 
-        <img src="" alt="me" className="right-img" />
+        <div className="circle">
+          <img
+            src={require("../../images/programming.png")}
+            alt="me"
+            className="right-img"
+          />
+        </div>
+      </div>
+
+      <div className="">
+        <Skills />
       </div>
 
       <div className="bottom-content">
         <h1 className="connect">
-          <span className="special">CONNECT</span> WITH ME ON
+          <span className="special">FIND</span> ME ON
         </h1>
         <Icons />
+        <h1 className="contact">OR <span className="special">CONTACT</span> ME @</h1>
+        <p className="email"><span className="special">jrleontech@gmail.com</span></p>
       </div>
     </div>
   );

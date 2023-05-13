@@ -6,17 +6,20 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 const Navbar = () => {
   return (
     <nav>
-      <h1 className="logo">Jl.</h1>
+      <Link to="/" className="nav-logo">
+        <h1 className="logo">JL.</h1>
+      </Link>
 
       <ul className="link-box">
         <li className="nav-links home-link">
-          <Link to="/" className="nav-title">Home</Link>
+          <Link to="/" className="nav-title">
+            Home
+          </Link>
         </li>
         <li className="nav-links projects-link">
-          <Link to="/projects" className="nav-title">Projects</Link>
-        </li>
-        <li className="nav-links about-link">
-          <Link to="/about" className="nav-title">About</Link>
+          <Link to="/projects" className="nav-title">
+            Projects
+          </Link>
         </li>
       </ul>
     </nav>
